@@ -23,8 +23,7 @@ We may need to migrate this inquiry to an Idea to get more attention.
 
 This sort of thing in the template:
 
-'
-<style type="text/css">   
+'<style type="text/css">   
     #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
     /* Resets: see reset.css for details */
     .ReadMsgBody { width: 100%; background-color: #ebebeb;}
@@ -35,8 +34,7 @@ This sort of thing in the template:
     table {border-spacing:0;}
     table td {border-collapse:separate;}
      /*table.container{border:1px solid #dddddd;}*/ /* Remove star and slash from either side to add border*/
-    .yshortcuts a {border-bottom: none !important;}
-    '
+    .yshortcuts a {border-bottom: none !important;}'
  
  Is not allowed.  The new Lightning Templates do not allow the <Style> element.  It's currently a requested feature.
   
