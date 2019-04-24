@@ -38,4 +38,52 @@ This sort of thing in the template:
   
   See:  https://success.salesforce.com/answers?id=9063A000000pRUFQA2
   
-  
+ [Considerations for Using Classic Templates in Lightning](https://help.salesforce.com/articleView?id=classic_templates_in_lightning_considerations.htm&type=5)
+ 
+#### When using Classic email templates in Lightning Experience, keep these considerations in mind.
+
+REQUIRED EDITIONS
+Available in: Lightning Experience
+Available in: Personal, Group, Professional, Enterprise, Performance, Unlimited, and Developer Editions
+
+The Lightning Email action layout must include the EmailTemplate field to display Classic email templates. The field is added by default to all Lightning Email action layouts.
+To edit Classic email templates, use Classic Email Templates in Setup.
+
+Externally linked CSS files are not supported. Although the CSS resource is displayed in the preview section in a Classic email template, most email clients don’t support externally linked CSS files.
+
+##### Attachments
+When sending an email that includes an email template, attachments from Classic email templates are read-only. Download an attachment to verify the content.
+To change the attachments that are part of a Salesforce Classic email template, use Setup.
+You can add an attachment to text, custom HTML, and letterhead email templates.
+Note
+NOTE The attachment must be in Salesforce Files.
+You can't forward an attachment if:
+The email is sent or received in Salesforce Classic
+The email attachment is part of a Classic email template and the email is sent using Lightning email actions
+
+##### Merge Fields
+Merge fields in the email template are resolved when the template is inserted, based on the values in the Recipient and Related To fields. If you change the Recipient and Related To values after you insert the template, the email content doesn’t update.
+Note
+NOTE You don’t need to preview the template to see how it looks after the fields have merged.
+You can’t add, edit, or remove merge fields using the merge field modal picklist.
+Unresolved merge fields are blanked out when the template is inserted.
+Text Email Templates
+You can edit both the subject and the body.
+
+##### Custom HTML Email Templates
+The behavior is the same as it is in Salesforce Classic.
+
+You can’t edit the subject or body.
+You can’t pop out the email composer. The email must remain in docked mode.
+
+##### Letterhead Email Templates
+The behavior is the same as it is in Salesforce Classic.
+
+You can edit the subject.
+You can’t edit the header and footer.
+Locked template sections remain locked and can’t be edited.
+
+##### Visualforce Email Templates
+The template is read-only.
+Templates are sent with their dynamic and static attachments.
+As with other email template attachments, dynamic attachments are in read-only mode and can’t be removed.
