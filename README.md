@@ -1,4 +1,4 @@
-### LightningTransitionGuide
+### [LightningTransitionGuide](https://help.salesforce.com/articleView?id=lex_change_management_app.htm&type=5) (Click this to start if you are the consultant admin)
 A place to document process steps and best practices for lightning transition using the new Lightning Experience Transition Assistant
 
 Log in to the client's production instance, or sandbox instance [here](https://lightning-readiness-check.salesforce.com/change)
