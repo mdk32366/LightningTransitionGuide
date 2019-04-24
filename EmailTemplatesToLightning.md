@@ -23,18 +23,18 @@ We may need to migrate this inquiry to an Idea to get more attention.
 
 This sort of thing in the template:
 
-'<style type="text/css">   
-    #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
-    /* Resets: see reset.css for details */
-    .ReadMsgBody { width: 100%; background-color: #ebebeb;}
-    .ExternalClass {width: 100%; background-color: #ebebeb;}
-    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
-    body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
-    body {margin:0; padding:0;}
-    table {border-spacing:0;}
-    table td {border-collapse:separate;}
-     /*table.container{border:1px solid #dddddd;}*/ /* Remove star and slash from either side to add border*/
-    .yshortcuts a {border-bottom: none !important;}'
+    <style type="text/css">   
+        #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+        /* Resets: see reset.css for details */
+        .ReadMsgBody { width: 100%; background-color: #ebebeb;}
+        .ExternalClass {width: 100%; background-color: #ebebeb;}
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-      height:100%;}
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+        body {margin:0; padding:0;}
+        table {border-spacing:0;}
+        table td {border-collapse:separate;}
+        /*table.container{border:1px solid #dddddd;}*/ /* Remove star and slash from either side to add border*/
+       .yshortcuts a {border-bottom: none !important;}'
  
  Is not allowed.  The new Lightning Templates do not allow the <Style> element.  It's currently a requested feature.
   
