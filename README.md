@@ -11,4 +11,10 @@ Training:
 
 Good, short Trailhead Module:  [Lightning Experience for Salesforce Classic Users}(https://trailhead.salesforce.com/content/learn/modules/lightning-experience-for-salesforce-classic-users)
 
+Go Live:
+
+Feedback:
+
+https://help.salesforce.com/articleView?id=lex_encourage_work_feedback.htm&type=5
+
 
